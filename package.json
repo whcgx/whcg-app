@@ -1,0 +1,36 @@
+{
+  "name": "@whcg/whcg-app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.es6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "whcg",
+  "license": "ISC",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@whcg/whcg-json-maker": "*",
+    "@whcg/whcg-multiplier": "*",
+    "@whcg/whcg-period-amplifier": "*",
+    "@whcg/whcg-period-compounder": "*",
+    "@whcg/whcg-number-field": "*",
+    "@whcg/whcg-number-field-box": "*",
+    "@whcg/whcg-period-discounter": "*",
+    "@whcg/whcg-period-summarizer": "*",
+    "@whcg/whcg-select": "*",
+    "@whcg/whcg-login-fields": "*",
+    "@whcg/whcg-login-check": "*",
+    "@whcg/whcg-json-merger": "*",
+    "@whcg/whcg-grid": "*",
+    "@whcg/whcg-chart-feeder": "*",
+    "@whcg/whcg-chart": "*",
+    "@whcg/whcg-box-container": "*",
+    "@polymer/polymer": "*"
+  },
+  "dependencies": {}
+}
